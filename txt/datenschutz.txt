@@ -1,0 +1,10 @@
+Juhu Datenschutz. Ich liebe ihn.
+
+Der Benutzername muss aus mindestens vier Zeichen bestehen. Erlaubt sind sowohl groß
+als auch Kleinbuchstaben, Zahlen und Unterstriche(nicht aber am Anfang). Weitere
+Sonderzeichen sind nicht gestattet.
+
+Bei der E-Mail Eingabe wird darauf geachtet, dass ein @ und ein . enthalten sind.
+
+Bei der Passwort Eingabe wird darauf geachtet, dass es aus mindestens acht Zeichen
+besteht. Es muss mindestens eine Zahl enthalten sein.

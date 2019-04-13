@@ -1,0 +1,141 @@
+body{
+  background-color: yellow ;
+}
+
+.mainpage{
+    width: 100%;
+    height: 600px;
+}
+
+/* Die Hinweis Texte in "registrieren" und "login" */
+.hinweis ,.member{
+    font-size: 13px;
+}
+.main_text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  float: left;
+}
+
+/* Buttons und Textleisten für die Registrieren und Login Form */
+input[type=text], [type=password]{
+  width: 20;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=text]:focus {
+    background: lightsteelblue;
+}
+
+input[type=password]:focus {
+    background: lightsteelblue;
+}
+
+input[type=submit]{
+
+    width: 80%;
+    outline: none;
+    border: none;
+
+    background-color: #1b9136;
+
+    border-radius: 0px 0px 30px 30px;
+    color: white;
+
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto
+
+}
+
+input[type=button]:hover{
+    background-color: #2ebc4f;
+
+}
+
+/* Die "registrieren" Form */
+.registrieren{
+    width: 23%;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 900px;
+
+    border-color: blacks;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+/* Die "login" Form*/
+.login{
+    width: 23%;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 450px;
+
+    border-color: blacks;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+
+
+/* Für die "error" Anzeige */
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/*index Datei*/
+
+.header{
+    background-color: rgb(236, 17, 163);
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+    border-radius: 11px 11px 11px 11px;
+    
+}
+
+.footer{
+    background-color:rgb(236, 17, 163);
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 11px 11px 11px 11px;
+}
+
+
+
+
+
+  
