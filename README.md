@@ -1,4 +1,4 @@
 # registration_form
-The Frontend is build with HTML/CSS.
-The Backend is build in JavaScript.
-For selecting and insert data I use PHP and MySQL as databse.
+The Frontend is build with HTML/CSS and JavaScript.
+The Backend is build in PHP.
+I use MySQL as database.
