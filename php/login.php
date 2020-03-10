@@ -4,6 +4,7 @@
 <html>
 
 <head>
+
   <meta charset="utf-8" lang="de"/>
   <link rel="stylesheet" href=" ../css/main.css">
   <title>Anmelden</title>
@@ -23,12 +24,10 @@
       <br />
       <p class="hinweis">Noch kein Mitglied ?<a href="registrieren.php"> Jetzt Registrieren</a> </p>
 
-
     </form>
 
   </div>
 
 </body>
-
 
 </html>

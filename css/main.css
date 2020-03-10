@@ -116,14 +116,12 @@ input[type=button]:hover{
 }
 
 /*index Datei*/
-
 .header{
     background-color: rgb(236, 17, 163);
     width: 100%;
     height: 80px;
     margin-top: 1px;
     border-radius: 11px 11px 11px 11px;
-    
 }
 
 .footer{

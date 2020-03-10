@@ -3,16 +3,15 @@
 <html>
 
 <head>
+
     <meta charset="utf-8" lang="de">
     <link rel="stylesheet" href="../css/main.css">
     <script src="../js/main.js"></script>
-
     <title>Registrieren</title>
 
 </head>
 
 <body>
-<!-- Kommentar-->
 
 <div class ="header"></div>
   <div class = "mainpage">
@@ -24,13 +23,13 @@
          <?php include("errors.php");  ?>
 
 
-         <input type="text" id="username" name="username"  placeholder="Benutzername" autocomplete="off" maxlength="25" onkeyup="user_name()">
+         <input type="text" id="username" name="username"  placeholder="Benutzername" autocomplete="off" maxlength="25" onkeyup="UserName()">
          <br>
 
-         <input type="text" id="email"name="email" placeholder="E-Mail" autocomplete="off" onkeyup="user_email()">
+         <input type="text" id="email"name="email" placeholder="E-Mail" autocomplete="off" onkeyup="UserEmail()">
          <br>
 
-         <input type="password" id="password" name="password" placeholder="Passwort" onkeyup="user_password()">
+         <input type="password" id="password" name="password" placeholder="Passwort" onkeyup="UserPassword()">
          <br>
 
          <p class="password_info">Bitte sorge dafür, dass dein Passwort aus mindestens <strong>8</strong>
@@ -44,14 +43,12 @@
          <input type="submit" name="registrieren" value="Registrieren">
          <p class="member">Schon Mitglied ? <a href="login.php">Jetzt Anmelden</a></p>
 
-
        </form>
 
     </div>
   </div>
 
     <div class="footer"></div>
-
 
 </body>
 

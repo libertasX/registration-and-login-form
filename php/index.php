@@ -13,13 +13,15 @@
 ?>
 
 <!DOCTYPE html>
+
 <html>
 
 <head>
-	<title>Herzlich wilkommen!</title>
 
+	<title>Herzlich wilkommen!</title>
 	<link rel="stylesheet" href="../css/main.css">
-  <meta charset="utf-8" lang="de">
+    <meta charset="utf-8" lang="de">
+
 </head>
 
 <body>
@@ -28,11 +30,9 @@
 		
 </div>
 
-
-
 <div class="content">
 
-  	<!-- notification message -->
+  	<!-- Benachrichtigungsmeldung-->
   	<?php if (isset($_SESSION['success'])) : ?>
       <div class="error success" >
       	<h3>
@@ -44,15 +44,7 @@
       </div>
   	<?php endif ?>
 
-
-
-
-
-
-
-
-
-    <!-- logged in user information -->
+    <!-- Wenn der User eingeloggt ist-->
     <?php  if (isset($_SESSION['username'])) : ?>
     	<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>

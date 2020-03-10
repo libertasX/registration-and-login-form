@@ -1,7 +1,6 @@
 // Formulareingaben überprüfen.
-
 // "user" Eingaben überprüfen.
-function user_name(){
+function Username(){
 
     let username = document.getElementById("username").value;
     let  re = new RegExp(/^[a-zA-Z0-9_]+$/); // Erlaubte Zeichen im Benutzernamen
@@ -15,7 +14,7 @@ function user_name(){
 }
 
 // "email" Eingaben überprüfen.
-function user_email(){
+function UserEmail(){
 
     let email = document.getElementById("email").value;
     if (email.search(/[@]/i) == -1 || email.search(/[.]/i) == -1) {
@@ -28,7 +27,7 @@ function user_email(){
 }
 
 // "Password" Einagben überprüfen.
-function user_password(){
+function UserPassword(){
 
     let password = document.getElementById("password").value;
     if (password.length < 8 || password.search(/[0-9]/i) == -1 || password.search(/[a-zA-Z]/i) == -1) {

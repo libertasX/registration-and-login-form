@@ -24,7 +24,7 @@
       if(strlen($username) < 4 || strrpos($username, "_") === 0 ||
       preg_match("/^[a-zA-Z0-9_]+$/", $username) == false) {
         $i--;
-    //  echo "Fehler bei der User Eingabe.<br />";
+         //  echo "Fehler bei der User Eingabe.<br />";
       }
 
       $email = $_POST["email"];
